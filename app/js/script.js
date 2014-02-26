@@ -69,7 +69,7 @@ dscript.onclick=function(){
 // ====================== Others ============
 
 $(function() {
-    $( "#draggable" ).draggable();
+    $( ".draggable" ).draggable();
   });
 	
 	

@@ -16,7 +16,7 @@ function testphp($arg1){
 		echo 'not attached';
 		} else {
 		echo $arg1;
-		};
+		}
 };
 
 
@@ -24,7 +24,7 @@ function redirect_to( $location = NULL ){
 	if ($location != NULL){
 		header("Location: {$location}");
 		exit;
-	};
+	}
 };
 
 
@@ -44,14 +44,14 @@ function login($username,$password){
 		}else{
 			$_SESSION['status'] = 200;
 			$loginfail = 'fail';
-		};
-	};
+		}
+	}
 };
 
+//LOGGING OUT
 function logout(){
 	redirect_to("index.php");
-	session_destroy();
-	
+	session_destroy(); 		//end current session
 	$_SESSION['status'] = 300;
 };
 

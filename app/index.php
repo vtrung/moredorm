@@ -61,7 +61,7 @@ include("php/controls.php");
 
 <div id="board">
 	<div class="draggable">
-	<img src="upload/ftoast.jpg">
+	<img src="images/ftoast.jpg">
 	</div>
 </div>
 

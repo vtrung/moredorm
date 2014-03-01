@@ -25,41 +25,12 @@ if(!isset($_SESSION['username']) || $_SESSION['status']!= 100){
 
 <body>
 
-<div id='toolbar' class='toolbarfill draggable'>
-
-		<form class="login toollist box" id="login" method="post">
-		<p> Login </p>
-		<div class="toollist">
-		<div class="toollist">Username: <input type="text" name="username"></div>
-		<div class="toollist">Password: <input type="password" name="password"</div>
-		</div>
-		<div class="toollist">
-		<input type="submit" name="login" class="login toollist">
-		</div>
-		</div>
-		</form>
-	<div>
-		<?php
-		
-			if($_SESSION['status'] == 200){
-				echo("UsernamePassword is Invalid");
-			}
-		?>
-	</div>
-</div>
-
-<div id="head0">
-	<div id="logo1">
-	<a href="http://moredorm.com" id="hlink1" ><img src="images/md2.png"></a>
-	</div>
-	<div id="headspace">
-	</div>
-	<p id="head1">
-	</p>
+<div class="box draggable">
+	<img src="images/mLogo.png">
 </div>
 
 <div id='main'>
-	<div id='rwelcome1'>
+	<div id='rwelcome1' class="box draggable">
 	<?php 
 	$results = mysqli_query($con,"SELECT * FROM residents WHERE username='{$_SESSION['username']}'");
 	
@@ -73,28 +44,28 @@ if(!isset($_SESSION['username']) || $_SESSION['status']!= 100){
 	?>
 	</div>
 
-<div id='title1'>
+<div id='title1' class="box draggable">
 <h1> This is the members page </h1>
 </div>
 
 
-//<form id="logout" method="post">
-<button onclick="location.href='logout.php'">Logout</button>
-//</form>
+<form class="box draggable" id="logout" method="post" action="php/logout.php">
+<input type="submit" value="LOGOUT" action="php/logout.php">
+</form>
 
-<div id="board">
-	<div class="draggable">
+<div id="board" class="box draggable">
+	<div>
 	<img src="upload/ftoast.jpg">
 	</div>
 </div>
 
-<form action="uploadfile.php" method="post" enctype="multipart/form-data">
+<form action="uploadfile.php" method="post" enctype="multipart/form-data" class="box draggable">
 <label for="file">Filename:</label>
 <input type="file" name="file" id="file"><br>
 <input type="submit" name="submit" value="Submit">
 </form>
 
-<div id="retcookie"> 
+<div id="retcookie" class="box"> 
 
 <?php
 if(isset($_COOKIE["file"])){

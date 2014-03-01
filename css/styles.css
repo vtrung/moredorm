@@ -1,0 +1,369 @@
+/* Notes can be added with this syntax 
+
+# is for id
+. is for classes
+
+*/
+
+body {
+	margin-left: 120px;
+}
+
+#main {	background-color: #ecf4fe;
+	width: 1000px;
+	margin: 0em auto;
+	margin-top: 2px;
+}
+
+#main > #head0 {
+	/*background-image:url('http://moredorm.com/images/pixel_weave.png');
+	background-repeat:repeat;*/
+	/*from subtlepatterns.com*/
+	width: 100%;
+	height: 100px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin-bottom: 0px;
+}
+
+/*-------------- Body CSS ----------------*/
+	
+#mainbody { 	
+	height: 400px;
+	width: 1000px;
+	margin: 0em auto;
+	margin-left: 120;
+	margin-top: 10px;
+	/*border: 3px dotted black;*/
+	opacity: 1;
+	
+}
+
+#panel1{float: left;
+	width: 320px;
+	height: 100%;
+	border: dotted 2px #4a79b5;
+	background-color: white;
+	padding: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+	
+#panel2{float: left;
+	margin-left: 25px;
+	border: dotted 2px #4a79b5;
+	width: 612px;
+	height: 100%;
+	background-color: white;
+	padding: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}	
+
+body {	 
+	background-color: #D3D3D3;
+	height: 1000px;
+/*	border-bottom: 10px solid gold;
+	border-top: 10px solid gold;*/
+	/*background-image:url('http://vtrung.info/images/bg01.jpg');*/				
+}
+
+#body1 {	
+	/*background-image:url('http://vtrung.info/images/bg01.jpg');*/
+	background-color: #E6E6F0;
+}
+
+
+
+
+/* ===========  TOOL BAR ============= */
+
+
+
+.toolbarfill {
+	height: 50px;
+	width: 100%;
+}
+
+#toolbar {
+	margin: 0 0 0 0;
+	padding-left: 120px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #ffffff;
+}
+		
+.toollist {	float: left;
+		font-size: 10px;
+}
+
+ul { 	list-style: none;
+	font-size: 20px;
+
+}
+
+.bg {	width: 100%;
+	height:	100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: -1;
+	opacity: 0.5;
+	
+	
+}
+#label1 {	float:left;
+		line-height: 26px;
+		width: 90px;
+		
+}
+#label2{	float:left;
+		line-height: 26px;
+}
+
+
+/* =========== Heading ============ */
+
+
+#logo1 {	width: 50px;
+		height: 50px;
+		float: left;}
+		
+#headspace{	width:30px;
+		height: 50px;
+		float: left;}
+		
+#head1 {	height: 50px;
+		width: 80%;
+		margin-left: 1em;
+		text-align: left;
+		text-shadow: 2px 2px #EBEBEB;
+		color: black;
+		text-transform: lowercase;
+			/* border: 2px outset gray; */
+			/* background-color: #FEE;*/
+			/* background-image:url('http://vtrung.info/images/heading1.png');*/
+		//background: -webkit-linear-gradient(white,#FFBA42);
+		//background: -moz-linear-gradient(white,#FFBA42);
+		//-webkit-border-radius: 5px;
+		//-moz-border-radius: 5px;
+		opacity: 0.8;
+		float: left;}
+
+
+
+/*p#head1:hover{
+	background: #e2e2e2;
+	background: -moz-radial-gradient(center, ellipse cover, #e2e2e2 0%, #fefefe 78%); /* FF3.6+ 
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#e2e2e2), color-stop(78%,#fefefe));
+	background: -webkit-radial-gradient(center, ellipse cover, #e2e2e2 0%,#fefefe 78%); 
+	background: -o-radial-gradient(center, ellipse cover, #e2e2e2 0%,#fefefe 78%); /* Opera 12+ 
+	background: -ms-radial-gradient(center, ellipse cover, #e2e2e2 0%,#fefefe 78%); /* IE10+ 
+	background: radial-gradient(ellipse at center, #e2e2e2 0%,#fefefe 78%); /* W3C 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 ); /* IE6-9 fallback on horizontal gradient
+}*/
+
+
+#form1 {	height: 40px;
+		width: 100%;}
+
+#signup{	float:left;
+		text-align:right;
+}
+		
+#mainbodytext{	
+}
+
+	
+
+#hlink1 {	margin= 0;
+		padding= 0;
+		font-family: sans-serif;
+		font-size: 70px;
+		font-color: black;
+		color: black;
+		letter-spacing: 5px;
+}
+
+#hlink1:hover{ }	
+
+
+/* ================================ Below relates to Left Menu ========================= */
+
+#mbar2 {	float: left;
+		width: 22%;
+		border: 2px outset gray;
+		//-webkit-border-radius: 20px; /* this is for rounded corners */
+		//-moz-border-radius: 20px;
+		padding: 8px;
+		background-color: white;
+		opacity: 0.9;
+		
+}	
+
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+#mbarh2 {	text-align: center;
+		text-transform: uppercase;
+		font-size: 18px;
+		padding-bottom: 5px;
+		
+}
+
+
+.subtitle1 {
+		font-size: 16px;
+}
+
+.submenu1{	/*background-color:#D1D1D1;*/
+		/*border-bottom:1px solid black;*/
+		border-top:1px solid black;
+		opacity:0.8;
+		width:130px;
+		//margin-left:10px;
+		//padding-right:0;
+		background: #e2e2e2; /* Old browsers */
+		list-style-type: none;
+		list-style-position: inside;
+		
+	background: -moz-radial-gradient(center, ellipse cover, #e2e2e2 0%, #fefefe 78%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#e2e2e2), color-stop(78%,#fefefe)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, #e2e2e2 0%,#fefefe 78%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, #e2e2e2 0%,#fefefe 78%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, #e2e2e2 0%,#fefefe 78%); /* IE10+ */
+	background: radial-gradient(ellipse at center, #e2e2e2 0%,#fefefe 78%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+
+
+div.subtitle1:hover{
+	background: #66b6fc; /* Old browsers */
+background: -moz-linear-gradient(left, #66b6fc 8%, #b2e1ff 91%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(8%,#66b6fc), color-stop(91%,#b2e1ff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #66b6fc 8%,#b2e1ff 91%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #66b6fc 8%,#b2e1ff 91%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #66b6fc 8%,#b2e1ff 91%); /* IE10+ */
+background: linear-gradient(to right, #66b6fc 8%,#b2e1ff 91%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66b6fc', endColorstr='#b2e1ff',GradientType=1 ); /* IE6-9 */
+	font-size: 20px;
+	font-weight:900;
+	}
+	
+
+
+.submenu11{
+		text-decoration: none;
+		color: black;
+		text-indent:20px;
+		
+		
+		}
+
+
+/* #drop1 { 	display:none;
+
+}*/
+
+
+/* ======= Top Menu =======*/
+
+
+#mbar1 { 	float: right;
+		/* background-color: gray; */
+		/* border: 2px outset gray; */
+		width: 75%;	
+}
+
+#list1 {	float: left;
+		width: 100%;
+		height: 1em;
+		padding: 5px;
+		/* border: 2px outset gray; */
+		background:-webkit-linear-gradient(gray,white);
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		opacity: 0.8;
+
+}
+
+/* ========= Main Content ========= */
+
+#content1 {	/*float: left;*/
+		width: 100%;
+		height: 200px;
+		margin-top: 10px;
+		padding: 5px;
+		border: 2px outset gray;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		background-color:white;
+		opacity: 0.9;
+}
+
+
+#draggable {	width: 150px;
+		height: 150px; 
+		padding: 0.5em; 
+		z-index: 1;
+}
+
+/* ================================================ */
+
+#contact1{ 	position: absolute;
+		background-color: white;
+		bottom: 0;
+		clear: both; 
+		text-align: justify;
+		font:.5em;
+		color: gray;
+		border: 2px inset gray;
+}
+
+#contact1:hover {background-color:blue;
+}
+
+.links {	float: right;
+		width: 20%;
+		height: 20px;	
+		background-color: #FEE;
+			
+}
+
+.floatright{float: right;
+}
+
+.floatleft{float: left;
+		margin-right: 1em;
+}
+
+		/* HYPERTEXT STYLING */
+a{
+text-decoration: none;
+font-style:none;
+color:green;
+}
+
+a:hover{opacity: 80%;
+}
+
+
+/*  ========================== Room.php ============ */
+
+#board{ width: 90%;
+	height: 500px;
+	background-color:#000000;
+	opacity: 0.5;
+}
+
+#logout{ float:right;
+}

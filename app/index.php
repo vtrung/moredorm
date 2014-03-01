@@ -15,7 +15,11 @@ include("php/controls.php");
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
 </head>
 
+
 <body>
+<div class="box draggable">
+	<img src="images/mLogo.png">
+</div>
 
 <div id='toolbar' class='toolbarfill'>
 
@@ -33,14 +37,17 @@ include("php/controls.php");
 
 
 <div id="mainbody">
-	<div id="panel1" class="shadow">
+	<div id="panel1" class="box draggable">
 	<p><?php include("includes/signupform.php"); ?> </p>
 	</div>
-	<div id="panel2" class="shadow">
+	
+	<div id="panel2" class="box draggable">
 	<h1> Stay connected with your new classmates! </h1>
-	<p> Ving Make new friends! </p>
+	<p> Make new friends! </p>
 	<p> Bringing the Dorm experience to everyone! </p>
 	</div>
+	
+	<div class="box draggable">
 	<?php 
 	if (mysqli_connect_errno($con))
 	  {
@@ -49,20 +56,15 @@ include("php/controls.php");
 	  echo "Connected";
 	  };
   	?>
+  	</div>
 	
 </div>	
 
-<div id="bottomfooter" class="draggable">
+<div id="bottomfooter" class=" box draggable">
 	<ul>
 	<li>about us</li>
 	<li>contact us</li>
 	</ul>	
-</div>
-
-<div id="board">
-	<div class="draggable">
-	<img src="images/ftoast.jpg">
-	</div>
 </div>
 
 <script>

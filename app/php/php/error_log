@@ -1,0 +1,1 @@
+[27-Feb-2014 03:34:07 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vtrujjct/public_html/php/newresident.php:12) in /home/vtrujjct/public_html/php/newresident.php on line 18
